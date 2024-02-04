@@ -1,0 +1,1886 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@400;700;900&family=Bokor&family=Koulen&family=Taprom&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1688px;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+}
+
+/* header style */
+
+header {
+    width: 100%;
+    height: 110px;
+    background-color: black;
+}
+
+header .header-content {
+    width: 90%;
+    height: 100%;
+    /* background-color: #D90C16; */
+    margin: 0 auto;
+}
+
+header .header-content .logo {
+    float: left;
+    width: 50%;
+    height: 100%;
+    /* background-color: #f9a62b; */
+}
+
+header .header-content .logo img {
+    width: 110px;
+    height: 110px;
+    line-height: 120px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+header .header-content .ad {
+    float: right;
+    width: 50%;
+    height: 100%;
+    /* background-color: #4390f8; */
+}
+
+header .header-content .ad img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Navigation Bar */
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: #fa1939;
+}
+
+nav .nav-menu {
+    width: 90%;
+    height: 60px;
+    /* background-color: blueviolet; */
+    margin: 0 auto;
+}
+
+.nav-menu {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+nav .nav-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+nav .nav-menu ul li {
+    padding: 0 37px 0 0;
+}
+
+nav .nav-menu ul li a {
+    text-decoration: none;
+    color: rgba(255,255,255,.8);
+    font-family: 'Koulen', sans-serif;
+    font-size: 23px;
+    transition: all 0.2s linear;
+}
+
+nav .nav-menu ul li a:hover {
+    color: #fff;
+}
+
+nav .nav-menu ul li a.active {
+    background-color: #c02f31;
+    padding: 9px 20px;
+    color: #fff;
+}
+
+nav .nav-menu ul li a span {
+    font-family: sans-serif;
+}
+
+.content {
+    width: 90%;
+    height: 700px;
+    /* background-color: black; */
+    margin: 0 auto;
+}
+
+.content .content-new {
+    float: left;
+    width: 70%;
+    height: 100%;
+    background-color: green;
+    position: relative;
+}
+
+.content .content-new .left-content {
+    float: left;
+    width: 65%;
+    height: 100%;
+    /* background-color: blue; */
+    
+}
+
+/* ------------------- left-content 1 -------------- */
+.content .content-new .left-content .content:nth-child(1) {
+    float: left;
+    width: 100%;
+    height: 50%;
+    /* background-color: yellow; */
+    background-image: url(/week3/sabay_news/public/img/1049857.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.content .content-new .left-content .content:nth-child(1) .linear {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.9s linear;
+    opacity: 0.6;
+    z-index: 0.1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 8%, rgba(0, 0, 0, 0.8) 60%, black 100%);
+    transition: all 0.2s linear;
+}
+
+.content .content-new .left-content .content:nth-child(1) .hover-slide {
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    /* background-color: #D90C16; */
+    bottom: 50px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.content .content-new .left-content .content:nth-child(1) .hover-slide p {
+    margin-top: 10px;
+    display: none;
+    font-family: 'Battambang';
+    margin: 0 20px;
+    color: #fff;
+}
+
+.content .content-new .left-content .content:nth-child(1) .hover-slide h2 {
+    font-family: 'Battambang';
+    margin: 0 20px;
+    color: #fff;
+    transition: all 0.1s linear;
+    font-weight: 600;
+    z-index: 1000;
+    font-size: 30px;
+}
+
+.content .content-new .left-content .content:nth-child(1) .time {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    /* background-color: #38c378; */
+    bottom: 0;
+    font-family: 'Battambang';
+    z-index: 1000;
+}
+
+.content .content-new .left-content .content:nth-child(1) .time p {
+    margin: 0 20px;
+    color: #fff;
+}
+
+/* ------------------ clippy 1 ------------- */
+.content .content-new .left-content .content:nth-child(1) .clip-path {
+    position: absolute;
+    float: left;
+    width: 110px;
+    height: 50px;
+    background-color: #f2272f;
+    margin-top: 20px;
+    z-index: 1000;
+}
+
+.content .content-new .left-content .content:nth-child(1) .clip-path p {
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'koulen';
+    font-size: 20px;
+    color: #fff;
+    z-index: 1000;
+}
+
+.content .content-new .left-content .content:nth-child(1) .clip-start {
+    position: absolute;
+    float: left;
+    left: 111px;
+    width: 35px;
+    height: 50px;
+    background-color: #f2272f;
+    margin-top: 20px;
+    z-index: 1000;
+}
+/* --------------------------------------------- */
+
+/* ----------------- left-content 2 -------------- */
+.content .content-new .left-content .content:nth-child(2) {
+    float: left;
+    /* background-color: orange; */
+    width: 100%;
+    height: 50%;
+    background-image: url(/week3/sabay_news/public/img/cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+
+.content .content-new .left-content .content:nth-child(2) .linear {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.9s linear;
+    opacity: 0.6;
+    z-index: 0.1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 8%, rgba(0, 0, 0, 0.8) 60%, black 100%);
+    transition: all 0.2s linear;
+}
+
+.content .content-new .left-content .content:nth-child(2) .hover-slide {
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    /* background-color: #cee809; */
+    bottom: 50px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.content .content-new .left-content .content:nth-child(2) .hover-slide p {
+    margin-top: 10px;
+    display: none;
+    font-family: 'Battambang';
+    margin: 0 20px;
+    color: #fff;
+}
+
+.content .content-new .left-content .content:nth-child(2) .hover-slide h2 {
+    font-family: 'Battambang';
+    margin: 0 20px;
+    color: #fff;
+    transition: all 0.1s linear;
+    font-weight: 600;
+    z-index: 1000;
+    font-size: 30px;
+}
+
+.content .content-new .left-content .content:nth-child(2) .time {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    /* background-color: #D90C16; */
+    bottom: 0;
+    font-family: 'Battambang';
+    z-index: 1000;
+}
+
+.content .content-new .left-content .content:nth-child(2) .time p {
+    margin: 0 20px;
+    color: #fff;
+}
+/* ---------------------------------------- */
+
+/* ---------------- clippy 2 -------------- */
+.content .content-new .left-content .content:nth-child(2) .clip-path {
+    float: left;
+    width: 130px;
+    height: 50px;
+    background-color: #f9a62b;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.content .content-new .left-content .content:nth-child(2) .clip-path p {
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'koulen';
+    font-size: 20px;
+    color: #fff;
+}
+
+.content .content-new .left-content .content:nth-child(2) .clip-start {
+    position: absolute;
+    float: left;
+    left: 130px;
+    width: 35px;
+    height: 50px;
+    background-color: #f9a62b;
+    margin-top: 20px;
+    z-index: 1000;
+}
+/* ----------------------------------------- */
+
+.content .content-new .right-content {
+    float: left;
+    width: 35%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.content .content-new .right-content .content:nth-child(1) {
+    float: left;
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+    background-image: url(/week3/sabay_news/public/img/465337.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+
+.content .content-new .right-content .content:nth-child(1) .linear {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.9s linear;
+    opacity: 0.6;
+    z-index: 0.1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 8%, rgba(0, 0, 0, 0.8) 60%, black 100%);
+    transition: all 0.2s linear;
+}
+
+.content .content-new .right-content .content:nth-child(1) .hover-slide {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    /* background-color: #cee809; */
+    bottom: 50px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.content .content-new .right-content .content:nth-child(1) .hover-slide p {
+    margin-top: 10px;
+    bottom: 0;
+    display: none;
+    font-family: 'Battambang';
+    margin: 0 20px;
+    color: #fff;
+}
+
+.content .content-new .right-content .content:nth-child(1) .hover-slide h2 {
+    font-family: 'Battambang';
+    margin: 0 20px;
+    color: #fff;
+    transition: all 0.1s linear;
+    font-weight: 600;
+    z-index: 1000;
+    font-size: 30px;
+}
+
+.content .content-new .right-content .content:nth-child(1) .time {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    /* background-color: #D90C16; */
+    bottom: 0;
+    font-family: 'Battambang';
+    z-index: 1000;
+}
+
+.content .content-new .right-content .content:nth-child(1) .time p {
+    margin: 0 20px;
+    color: #fff;
+}
+/* -------------------------------------------- */
+
+/* --------------- clippy 1 --------------- */
+.content .content-new .right-content .content:nth-child(1) .clip-path {
+    float: left;
+    width: 110px;
+    height: 50px;
+    background-color: #4390f8;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.content .content-new .right-content .content:nth-child(1) .clip-path p {
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'koulen';
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    z-index: 1000;
+}
+
+.content .content-new .right-content .content:nth-child(1) .clip-start {
+    float: left;
+    width: 35px;
+    height: 50px;
+    left: 110px;
+    background-color: #4390f8;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 1000;
+}
+/* ------------------------------------------ */
+
+/* --------------- Right content 2 ---------------------- */
+.content .content-new .right-content .content:nth-child(2) {
+    float: left;
+    width: 100%;
+    height: 50%;
+    background-color: blueviolet;
+    background-image: url(/week3/sabay_news/public/img/depositphotos_447682324-stock-photo-amazing-natural-landscapes-new-zealand.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    cursor: pointer;
+    position: relative;
+}
+
+.content .content-new .right-content .content:nth-child(2) .linear {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.9s linear;
+    opacity: 0.6;
+    z-index: 0.1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 8%, rgba(0, 0, 0, 0.8) 60%, black 100%);
+    transition: all 0.2s linear;
+}
+
+.content .content-new .right-content .content:nth-child(2) .hover-slide {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    /* background-color: #cee809; */
+    bottom: 50px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.content .content-new .right-content .content:nth-child(2) .hover-slide p {
+    margin-top: 10px;
+    display: none;
+    font-family: 'Battambang';
+    margin: 0 20px;
+    color: #fff;
+}
+
+.content .content-new .right-content .content:nth-child(2) .hover-slide h2 {
+    font-family: 'Battambang';
+    margin: 0 20px;
+    color: #fff;
+    transition: all 0.1s linear;
+    font-weight: 600;
+    z-index: 1000;
+    font-size: 30px;
+}
+
+.content .content-new .right-content .content:nth-child(2) .time {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    /* background-color: #D90C16; */
+    bottom: 0;
+    font-family: 'Battambang';
+    z-index: 1000;
+}
+
+.content .content-new .right-content .content:nth-child(2) .time p {
+    margin: 0 20px;
+    color: #fff;
+}
+/* ---------------------------------------- */
+
+/* ---------------- clippy 2 ----------------- */
+.content .content-new .right-content .content:nth-child(2) .clip-path {
+    float: left;
+    width: 110px;
+    height: 50px;
+    background-color: #38c378;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.content .content-new .right-content .content:nth-child(2) .clip-path p {
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'koulen';
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    z-index: 1000;
+}
+
+.content .content-new .right-content .content:nth-child(2) .clip-start {
+    float: left;
+    width: 35px;
+    height: 50px;
+    left: 110px;
+    background-color: #38c378;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.content .advertisment {
+    float: right;
+    width: 29%;
+    height: 100%;
+    /* background-color: orangered;    */
+}
+
+.content .advertisment .content-advertise:nth-child(1) {
+    width: 100%;
+    height: 50%;
+    background-color: purple;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/week3/sabay_news/public/img/ad-1.png);
+}
+
+.content .advertisment .content-advertise:nth-child(2) {
+    background-color: peru;
+    background-image: url(/week3/sabay_news/public/img/ad-2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+
+/* ----------------- Big Content ------------------- */
+.big-content {
+    width: 100%;
+    height: 1113px;
+    margin-top: 30px;
+    /* background-color: rgb(145, 255, 0); */
+}
+
+.big-content .Clippy {
+    width: 90%;
+    height: 55px;
+    margin: 0 auto;
+    /* background-color: #38c378; */
+    cursor: pointer;
+}
+
+.big-content .Clippy .clip-path {
+    float: left;
+    width: 120px;
+    height: 55px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #f2272f;
+}
+
+.big-content .Clippy .clip-path p {
+    font-size: 20px;
+    font-family: 'koulen';
+    color: #fff;
+}
+
+.big-content .Clippy .clip-path p i {
+    font-size: 25px;
+}
+
+.big-content .Clippy .clip-start {
+    float: left;
+    width: 23px;
+    height: 55px;
+    background-color: #f2272f;
+}
+
+.big-content .vdo-content {
+    width: 90%;
+    height: 1055px;
+    margin: 0 auto;
+    /* background-color: white; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-top: 3px solid #f2272f;
+}
+
+.big-content .vdo-content .big-card {
+    width: 94%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 25px;
+    /* background-color: #f6f6f6; */
+}
+
+.big-content .vdo-content .big-card .card:nth-child(1),
+.big-content .vdo-content .big-card .card:nth-child(2),
+.big-content .vdo-content .big-card .card:nth-child(3) {
+    float: left;
+    width: 33%;
+    height: 100%;
+    /* background-color: #c02f31; */
+}
+
+.big-content .vdo-content .big-card .card:nth-child(1) img,
+.big-content .vdo-content .big-card .card:nth-child(2) img,
+.big-content .vdo-content .big-card .card:nth-child(3) img {
+    width: 100%;
+    height: 250px;
+    /* background-color: #38c378; */
+    transition: all 0.1s linear;
+    object-fit: cover;
+    object-position: center;
+}
+
+.big-content .vdo-content .big-card .card:nth-child(1) img:hover,
+.big-content .vdo-content .big-card .card:nth-child(2) img:hover,
+.big-content .vdo-content .big-card .card:nth-child(3) img:hover {
+    transform: scale(0.99);
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.big-content .vdo-content .big-card .card:nth-child(1),
+.big-content .vdo-content .big-card .card:nth-child(2) {
+    margin-right: 0.5%;
+    cursor: pointer;
+}
+
+.big-content .vdo-content .big-card .card:nth-child(1) .des-card p,
+.big-content .vdo-content .big-card .card:nth-child(2) .des-card p,
+.big-content .vdo-content .big-card .card:nth-child(3) .des-card p {
+    color: #000;
+    font-family: 'Battambang';
+    font-size: 22px;
+    padding: 10px 15px 10px 0;
+    font-weight: 700;
+}
+
+
+.big-content .vdo-content .small-card {
+    width: 94%;
+    height: 630px;
+    margin: 0 auto;
+    /* background-color: #38c378; */
+}
+
+.big-content .vdo-content .small-card .content-card:nth-child(1) {
+    float: left;
+    width: 67%;
+    height: 100%;
+    /* background-color: #c02f31; */
+}
+
+/* ------------- second card -------------- */
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card {
+    width: 100%;
+    height: 50%;
+    /* background-color: #f9a62b; */
+}
+
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(1),
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(2),
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(3),
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(4) {
+    float: left;
+    width: 24.22%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    cursor: pointer;
+}
+
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(1) .des-card p,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(2) .des-card p,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(3) .des-card p,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(4) .des-card p {
+    font-size: 20px;
+    font-family: 'Battambang';
+    /* font-weight: 600; */
+}
+
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(1) img,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(2) img,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(3) img,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(4) img {
+    background-color: #4390f8;
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.1s linear;
+}
+
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(1) img:hover,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(2) img:hover,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(3) img:hover,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(4) img:hover {
+    transform: scale(0.99);
+    border: 2px solid #000;
+}
+
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(1) {
+    margin-right: 1%;
+}
+
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(2) {
+    margin-right: 1%;
+}
+
+.big-content .vdo-content .small-card .content-card:nth-child(1) .first-card .card:nth-child(3) {
+    margin-right: 1%;
+}
+/* --------------------------------- */
+
+/* ---------------- second card ---------- */
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card {
+    width: 100%;
+    height: 50%;
+    /* background-color: #f9a62b; */
+}
+
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(1),
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(2),
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(3),
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(4) {
+    float: left;
+    width: 24.22%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    cursor: pointer;
+}
+
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(1) img,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(2) img,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(3) img,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(4) img {
+    background-color: #4390f8;
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.1s linear;
+}
+
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(1) img:hover,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(2) img:hover,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(3) img:hover,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(4) img:hover {
+    transform: scale(0.99);
+    border: 2px solid #000;
+}
+
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(1) .des-card p,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(2) .des-card p,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(3) .des-card p,
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(4) .des-card p {
+    font-size: 20px;
+    font-family: 'Battambang';
+    /* font-weight: 600; */
+}
+
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(1) {
+    margin-right: 1%;
+}
+
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(2) {
+    margin-right: 1%;
+}
+
+.big-content .vdo-content .small-card .content-card:nth-child(1) .second-card .card:nth-child(3) {
+    margin-right: 1%;
+}
+/* ----------------------------------- */
+
+/* ------------- big content 2 --------------- */
+.big-content .vdo-content .small-card .content-card:nth-child(2) {
+    float: right;
+    width: 29%;
+    height: 100px;
+    margin-top: 10px;
+    background-image: url(/week3/sabay_news/public/img/ad-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+/* ------------------------------------------ */
+
+/* -------------------- Entertainment -------------------- */
+.entertainment {
+    width: 100%;
+    height: 505px;
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+
+.entertainment .Clippy {
+    width: 90%;
+    height: 55px;
+    margin: 0 auto;
+    /* background-color: #38c378; */
+    cursor: pointer;
+}
+
+.entertainment .Clippy .clip-path {
+    float: left;
+    width: 120px;
+    height: 55px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #fa5480;
+}
+
+.entertainment .Clippy .clip-path p {
+    font-size: 20px;
+    font-family: 'koulen';
+    color: #fff;
+}
+
+.entertainment .Clippy .clip-path p i {
+    font-size: 25px;
+}
+
+.entertainment .Clippy .clip-start {
+    float: left;
+    width: 23px;
+    height: 55px;
+    background-color: #fa5480;
+}
+/* ------------------------------- */
+
+/* ------------------ entertainment content ------------------ */
+.entertainment .enter-content {
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-top: 3px solid #fa5480;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.entertainment .enter-content .right-content {
+    position: absolute;
+    top: 42%;
+    right: 1%;
+    cursor: pointer;
+}
+
+.entertainment .enter-content .right-content i {
+    font-size: 40px;
+    color: #fa5480;
+}
+
+.entertainment .enter-content .best-content {
+    width: 94%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* background-color: #f9a62b; */
+    
+}
+
+.entertainment .enter-content .best-content .left-content {
+    float: left;
+    width: 30%;
+    height: 100%;
+    /* background-color: #fa5480; */
+    cursor: pointer;
+}
+
+.entertainment .enter-content .best-content .left-content .enter-card {
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+
+.entertainment .enter-content .best-content .left-content .enter-card .img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/week3/sabay_news/public/img/entertainment/e1.jpg);
+    transition: all 0.1s linear;
+}
+
+.entertainment .enter-content .best-content .left-content .enter-card:hover .img{
+    transform: scale(0.99);
+    border: 1px solid #000;
+}
+
+.entertainment .enter-content .best-content .left-content .enter-card .des-enter {
+    width: 100%;
+    height: 100%;
+    background-color: #fa5480;
+    padding: 15px 20px 10px;
+}
+
+.entertainment .enter-content .best-content .left-content .enter-card .des-enter p {
+    font-size: 30px;
+    font-family: 'Battambang';
+    color: #fff;
+    font-weight: 600;
+}
+
+.entertainment .enter-content .best-content .middle-content {
+    float: right;
+    width: 68%;
+    height: 100%;
+    /* background-color: #f2272f; */
+    cursor: pointer;
+}
+
+.entertainment .enter-content .best-content .middle-content .top-card {
+    width: 100%;
+    height: 50%;
+    /* background-color: blueviolet; */
+}
+
+.entertainment .enter-content .best-content .middle-content .top-card .des-card {
+    font-size: 15px;
+    font-family: 'Battambang';
+}
+ 
+.entertainment .enter-content .best-content .middle-content .top-card .card img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.1s linear;
+}
+
+.entertainment .enter-content .best-content .middle-content .top-card .card:hover img {
+    transform: scale(0.99);
+    border: 2px solid black;
+}
+/* ---------------------------------------------- */
+
+.entertainment .enter-content .best-content .middle-content .top-card .card:nth-child(1),
+.entertainment .enter-content .best-content .middle-content .top-card .card:nth-child(2),
+.entertainment .enter-content .best-content .middle-content .top-card .card:nth-child(3),
+.entertainment .enter-content .best-content .middle-content .top-card .card:nth-child(4) {
+    float: left;
+    width: 24%;
+    height: 100%;
+    /* background-color: darkgreen; */
+}
+
+.entertainment .enter-content .best-content .middle-content .top-card .card:nth-child(2),
+.entertainment .enter-content .best-content .middle-content .top-card .card:nth-child(3),
+.entertainment .enter-content .best-content .middle-content .top-card .card:nth-child(4) {
+    margin-left: 1.3%;
+}
+/* --------------------------------------------------- */
+
+/* -------------------- bottom card -------------------- */
+.entertainment .enter-content .best-content .middle-content .bottom-card {
+    width: 100%;
+    height: 50%;
+    /* background-color: #f9a62b; */
+   
+}
+
+.entertainment .enter-content .best-content .middle-content .bottom-card {
+    font-size: 15px;
+    font-family: 'Battambang';
+}
+
+.entertainment .enter-content .best-content .middle-content .bottom-card .card img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.1s linear;
+}
+
+.entertainment .enter-content .best-content .middle-content .bottom-card .card:hover img {
+    transform: scale(0.99);
+    border: 2px solid black;
+}
+
+.entertainment .enter-content .best-content .middle-content .bottom-card .card:nth-child(1),
+.entertainment .enter-content .best-content .middle-content .bottom-card .card:nth-child(2),
+.entertainment .enter-content .best-content .middle-content .bottom-card .card:nth-child(3),
+.entertainment .enter-content .best-content .middle-content .bottom-card .card:nth-child(4) {
+    float: left;
+    width: 24%;
+    height: 100%;
+    /* background-color: darkgreen; */
+}
+
+.entertainment .enter-content .best-content .middle-content .bottom-card .card:nth-child(2),
+.entertainment .enter-content .best-content .middle-content .bottom-card .card:nth-child(3),
+.entertainment .enter-content .best-content .middle-content .bottom-card .card:nth-child(4) {
+    margin-left: 1.3%;
+}
+
+
+
+
+
+
+
+/* ---------------- technology ---------------------- */
+.technology {
+    width: 100%;
+    height: 505px;
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+
+.technology .Clippy {
+    width: 90%;
+    height: 55px;
+    margin: 0 auto;
+    /* background-color: #38c378; */
+    cursor: pointer;
+}
+
+.technology .Clippy .clip-path {
+    float: left;
+    width: 120px;
+    height: 55px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #4390f8;
+}
+
+.technology .Clippy .clip-path p {
+    font-size: 20px;
+    font-family: 'koulen';
+    color: #fff;
+}
+
+.technology .Clippy .clip-path p i {
+    font-size: 25px;
+}
+
+.technology .Clippy .clip-start {
+    float: left;
+    width: 23px;
+    height: 55px;
+    background-color: #4390f8;
+}
+
+.technology .enter-content {
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-top: 3px solid #4390f8;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.technology .enter-content .right-content {
+    position: absolute;
+    top: 42%;
+    right: 1%;
+    cursor: pointer;
+}
+
+.technology .enter-content .right-content i {
+    font-size: 40px;
+    color: #4390f8;
+}
+
+.technology .enter-content .best-content {
+    width: 94%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* background-color: #f9a62b; */
+    
+}
+
+.technology .enter-content .best-content .left-content {
+    float: left;
+    width: 30%;
+    height: 100%;
+    /* background-color: #fa5480; */
+    cursor: pointer;
+}
+
+.technology .enter-content .best-content .left-content .enter-card {
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+
+.technology .enter-content .best-content .left-content .enter-card .img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/week3/sabay_news/public/img/tech/t1.jpg);
+    transition: all 0.1s linear;
+}
+
+.technology .enter-content .best-content .left-content .enter-card:hover .img{
+    transform: scale(0.99);
+    border: 1px solid #000;
+}
+
+.technology .enter-content .best-content .left-content .enter-card .des-enter {
+    width: 100%;
+    height: 100%;
+    background-color: #4390f8;
+    padding: 15px 20px 10px;
+}
+
+.technology .enter-content .best-content .left-content .enter-card .des-enter p {
+    font-size: 30px;
+    font-family: 'Battambang';
+    color: #fff;
+    font-weight: 600;
+}
+
+.technology .enter-content .best-content .middle-content {
+    float: right;
+    width: 68%;
+    height: 100%;
+    /* background-color: #f2272f; */
+    cursor: pointer;
+}
+
+.technology .enter-content .best-content .middle-content .top-card {
+    width: 100%;
+    height: 50%;
+    /* background-color: blueviolet; */
+}
+
+.technology .enter-content .best-content .middle-content .top-card .des-card {
+    font-size: 15px;
+    font-family: 'Battambang';
+}
+ 
+.technology .enter-content .best-content .middle-content .top-card .card img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.1s linear;
+}
+
+.technology .enter-content .best-content .middle-content .top-card .card:hover img {
+    transform: scale(0.99);
+    border: 2px solid black;
+}
+/* ---------------------------------------------- */
+
+.technology .enter-content .best-content .middle-content .top-card .card:nth-child(1),
+.technology .enter-content .best-content .middle-content .top-card .card:nth-child(2),
+.technology .enter-content .best-content .middle-content .top-card .card:nth-child(3),
+.technology .enter-content .best-content .middle-content .top-card .card:nth-child(4) {
+    float: left;
+    width: 24%;
+    height: 100%;
+    /* background-color: darkgreen; */
+}
+
+.technology .enter-content .best-content .middle-content .top-card .card:nth-child(2),
+.technology .enter-content .best-content .middle-content .top-card .card:nth-child(3),
+.technology .enter-content .best-content .middle-content .top-card .card:nth-child(4) {
+    margin-left: 1.3%;
+}
+/* --------------------------------------------------- */
+
+/* -------------------- bottom card -------------------- */
+.technology .enter-content .best-content .middle-content .bottom-card {
+    width: 100%;
+    height: 50%;
+    /* background-color: #f9a62b; */
+   
+}
+
+.technology .enter-content .best-content .middle-content .bottom-card {
+    font-size: 15px;
+    font-family: 'Battambang';
+}
+
+.technology .enter-content .best-content .middle-content .bottom-card .card img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.1s linear;
+}
+
+.technology .enter-content .best-content .middle-content .bottom-card .card:hover img {
+    transform: scale(0.99);
+    border: 2px solid black;
+}
+
+.technology .enter-content .best-content .middle-content .bottom-card .card:nth-child(1),
+.technology .enter-content .best-content .middle-content .bottom-card .card:nth-child(2),
+.technology .enter-content .best-content .middle-content .bottom-card .card:nth-child(3),
+.technology .enter-content .best-content .middle-content .bottom-card .card:nth-child(4) {
+    float: left;
+    width: 24%;
+    height: 100%;
+    /* background-color: darkgreen; */
+}
+
+.technology .enter-content .best-content .middle-content .bottom-card .card:nth-child(2),
+.technology .enter-content .best-content .middle-content .bottom-card .card:nth-child(3),
+.technology .enter-content .best-content .middle-content .bottom-card .card:nth-child(4) {
+    margin-left: 1.3%;
+}
+
+
+
+
+/* ---------------- life ---------------------- */
+.life {
+    width: 100%;
+    height: 505px;
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+
+.life .Clippy {
+    width: 90%;
+    height: 55px;
+    margin: 0 auto;
+    /* background-color: #38c378; */
+    cursor: pointer;
+}
+
+.life .Clippy .clip-path {
+    float: left;
+    width: 140px;
+    height: 55px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #38c378;
+}
+
+.life .Clippy .clip-path p {
+    font-size: 20px;
+    font-family: 'koulen';
+    color: #fff;
+}
+
+.life .Clippy .clip-path p i {
+    font-size: 25px;
+}
+
+.life .Clippy .clip-start {
+    float: left;
+    width: 23px;
+    height: 55px;
+    background-color: #38c378;
+}
+
+.life .enter-content {
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-top: 3px solid #38c378;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.life .enter-content .right-content {
+    position: absolute;
+    top: 42%;
+    right: 1%;
+    cursor: pointer;
+}
+
+.life .enter-content .right-content i {
+    font-size: 40px;
+    color: #38c378;
+}
+
+.life .enter-content .best-content {
+    width: 94%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* background-color: #f9a62b; */
+    
+}
+
+.life .enter-content .best-content .left-content {
+    float: left;
+    width: 30%;
+    height: 100%;
+    /* background-color: #fa5480; */
+    cursor: pointer;
+}
+
+.life .enter-content .best-content .left-content .enter-card {
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+
+.life .enter-content .best-content .left-content .enter-card .img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/week3/sabay_news/public/img/life/l1.jpg);
+    transition: all 0.1s linear;
+}
+
+.life .enter-content .best-content .left-content .enter-card:hover .img{
+    transform: scale(0.99);
+    border: 1px solid #000;
+}
+
+.life .enter-content .best-content .left-content .enter-card .des-enter {
+    width: 100%;
+    height: 100%;
+    background-color: #38c378;
+    padding: 15px 20px 10px;
+}
+
+.life .enter-content .best-content .left-content .enter-card .des-enter p {
+    font-size: 30px;
+    font-family: 'Battambang';
+    color: #fff;
+    font-weight: 600;
+}
+
+.life .enter-content .best-content .middle-content {
+    float: right;
+    width: 68%;
+    height: 100%;
+    /* background-color: #f2272f; */
+    cursor: pointer;
+}
+
+.life .enter-content .best-content .middle-content .top-card {
+    width: 100%;
+    height: 50%;
+    /* background-color: blueviolet; */
+}
+
+.life .enter-content .best-content .middle-content .top-card .des-card {
+    font-size: 15px;
+    font-family: 'Battambang';
+}
+ 
+.life .enter-content .best-content .middle-content .top-card .card img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.1s linear;
+}
+
+.life .enter-content .best-content .middle-content .top-card .card:hover img {
+    transform: scale(0.99);
+    border: 2px solid black;
+}
+/* ---------------------------------------------- */
+
+.life .enter-content .best-content .middle-content .top-card .card:nth-child(1),
+.life .enter-content .best-content .middle-content .top-card .card:nth-child(2),
+.life .enter-content .best-content .middle-content .top-card .card:nth-child(3),
+.life .enter-content .best-content .middle-content .top-card .card:nth-child(4) {
+    float: left;
+    width: 24%;
+    height: 100%;
+    /* background-color: darkgreen; */
+}
+
+.life .enter-content .best-content .middle-content .top-card .card:nth-child(2),
+.life .enter-content .best-content .middle-content .top-card .card:nth-child(3),
+.life .enter-content .best-content .middle-content .top-card .card:nth-child(4) {
+    margin-left: 1.3%;
+}
+/* --------------------------------------------------- */
+
+/* -------------------- bottom card -------------------- */
+.life .enter-content .best-content .middle-content .bottom-card {
+    width: 100%;
+    height: 50%;
+    /* background-color: #f9a62b; */
+   
+}
+
+.life .enter-content .best-content .middle-content .bottom-card {
+    font-size: 15px;
+    font-family: 'Battambang';
+}
+
+.life .enter-content .best-content .middle-content .bottom-card .card img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.1s linear;
+}
+
+.life .enter-content .best-content .middle-content .bottom-card .card:hover img {
+    transform: scale(0.99);
+    border: 2px solid black;
+}
+
+.life .enter-content .best-content .middle-content .bottom-card .card:nth-child(1),
+.life .enter-content .best-content .middle-content .bottom-card .card:nth-child(2),
+.life .enter-content .best-content .middle-content .bottom-card .card:nth-child(3),
+.life .enter-content .best-content .middle-content .bottom-card .card:nth-child(4) {
+    float: left;
+    width: 24%;
+    height: 100%;
+    /* background-color: darkgreen; */
+}
+
+.life .enter-content .best-content .middle-content .bottom-card .card:nth-child(2),
+.life .enter-content .best-content .middle-content .bottom-card .card:nth-child(3),
+.life .enter-content .best-content .middle-content .bottom-card .card:nth-child(4) {
+    margin-left: 1.3%;
+}
+
+
+
+
+/* ---------------- life ---------------------- */
+.sport {
+    width: 100%;
+    height: 505px;
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+
+.sport .Clippy {
+    width: 90%;
+    height: 55px;
+    margin: 0 auto;
+    /* background-color: #38c378; */
+    cursor: pointer;
+}
+
+.sport .Clippy .clip-path {
+    float: left;
+    width: 120px;
+    height: 55px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #f9a62b;
+}
+
+.sport .Clippy .clip-path p {
+    font-size: 20px;
+    font-family: 'koulen';
+    color: #fff;
+}
+
+.sport .Clippy .clip-path p i {
+    font-size: 25px;
+}
+
+.sport .Clippy .clip-start {
+    float: left;
+    width: 23px;
+    height: 55px;
+    background-color: #f9a62b;
+}
+
+.sport .enter-content {
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-top: 3px solid #f9a62b;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.sport .enter-content .right-content {
+    position: absolute;
+    top: 42%;
+    right: 1%;
+    cursor: pointer;
+}
+
+.sport .enter-content .right-content i {
+    font-size: 40px;
+    color: #f9a62b;
+}
+
+.sport .enter-content .best-content {
+    width: 94%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* background-color: #f9a62b; */
+    
+}
+
+.sport .enter-content .best-content .left-content {
+    float: left;
+    width: 30%;
+    height: 100%;
+    /* background-color: #fa5480; */
+    cursor: pointer;
+}
+
+.sport .enter-content .best-content .left-content .enter-card {
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+
+.sport .enter-content .best-content .left-content .enter-card .img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/week3/sabay_news/public/img/sport/s1.jpg);
+    transition: all 0.1s linear;
+}
+
+.sport .enter-content .best-content .left-content .enter-card:hover .img{
+    transform: scale(0.99);
+    border: 1px solid #000;
+}
+
+.sport .enter-content .best-content .left-content .enter-card .des-enter {
+    width: 100%;
+    height: 100%;
+    background-color: #f9a62b;
+    padding: 15px 20px 10px;
+}
+
+.sport .enter-content .best-content .left-content .enter-card .des-enter p {
+    font-size: 30px;
+    font-family: 'Battambang';
+    color: #fff;
+    font-weight: 600;
+}
+
+.sport .enter-content .best-content .middle-content {
+    float: right;
+    width: 68%;
+    height: 100%;
+    /* background-color: #f2272f; */
+    cursor: pointer;
+}
+
+.sport .enter-content .best-content .middle-content .top-card {
+    width: 100%;
+    height: 50%;
+    /* background-color: blueviolet; */
+}
+
+.sport .enter-content .best-content .middle-content .top-card .des-card {
+    font-size: 15px;
+    font-family: 'Battambang';
+}
+ 
+.sport .enter-content .best-content .middle-content .top-card .card img {
+    width: 100%;
+    height: 110px;
+    transition: all 0.1s linear;
+    object-fit: cover;
+    object-position: center;
+}
+
+.sport .enter-content .best-content .middle-content .top-card .card:hover img {
+    transform: scale(0.99);
+    border: 2px solid black;
+}
+/* ---------------------------------------------- */
+
+.sport .enter-content .best-content .middle-content .top-card .card:nth-child(1),
+.sport .enter-content .best-content .middle-content .top-card .card:nth-child(2),
+.sport .enter-content .best-content .middle-content .top-card .card:nth-child(3),
+.sport .enter-content .best-content .middle-content .top-card .card:nth-child(4) {
+    float: left;
+    width: 24%;
+    height: 100%;
+    /* background-color: darkgreen; */
+}
+
+.sport .enter-content .best-content .middle-content .top-card .card:nth-child(2),
+.sport .enter-content .best-content .middle-content .top-card .card:nth-child(3),
+.sport .enter-content .best-content .middle-content .top-card .card:nth-child(4) {
+    margin-left: 1.3%;
+}
+/* --------------------------------------------------- */
+
+/* -------------------- bottom card -------------------- */
+.sport .enter-content .best-content .middle-content .bottom-card {
+    width: 100%;
+    height: 50%;
+    /* background-color: #f9a62b; */
+   
+}
+
+.sport .enter-content .best-content .middle-content .bottom-card {
+    font-size: 15px;
+    font-family: 'Battambang';
+}
+
+.sport .enter-content .best-content .middle-content .bottom-card .card img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.1s linear;
+}
+
+.sport .enter-content .best-content .middle-content .bottom-card .card:hover img {
+    transform: scale(0.99);
+    border: 2px solid black;
+}
+
+.sport .enter-content .best-content .middle-content .bottom-card .card:nth-child(1),
+.sport .enter-content .best-content .middle-content .bottom-card .card:nth-child(2),
+.sport .enter-content .best-content .middle-content .bottom-card .card:nth-child(3),
+.sport .enter-content .best-content .middle-content .bottom-card .card:nth-child(4) {
+    float: left;
+    width: 24%;
+    height: 100%;
+    /* background-color: darkgreen; */
+}
+
+.sport .enter-content .best-content .middle-content .bottom-card .card:nth-child(2),
+.sport .enter-content .best-content .middle-content .bottom-card .card:nth-child(3),
+.sport .enter-content .best-content .middle-content .bottom-card .card:nth-child(4) {
+    margin-left: 1.3%;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    background-color: #000000;
+}
+
+footer .best-content {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: #4390f8; */
+}
+
+footer .best-content .twice-content {
+    float: left;
+    width: 73%;
+    height: 100%;
+    padding: 25px 0;
+    /* background-color: #c02f31; */
+}
+
+footer .best-content .twice-content .first-card {
+    float: left;
+    width: 35%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+footer .best-content .twice-content .first-card img {
+    width: 150px;
+}
+
+footer .best-content .twice-content .first-card .first-des p {
+    font-family: 'Battambang';
+    margin-bottom: 8px;
+    color: #999;
+}
+
+footer .best-content .twice-content .first-card .first-des a {
+    text-decoration: none;
+    color: #ABAAAB;
+    font-family: 'Battambang';
+    transition: all 0.1s linear;
+}
+
+footer .best-content .twice-content .first-card .first-des a:hover {
+    color: #fff;
+}
+
+footer .best-content .twice-content .first-card .second-des {
+    margin-top: 10px;
+}
+
+footer .best-content .twice-content .first-card .second-des .p1 {
+    font-family: 'Battambang';
+    color: #fff;
+    font-weight: 600;
+}
+
+footer .best-content .twice-content .first-card .second-des .p2 {
+    font-family: 'Battambang';
+    color: #999;
+}
+
+footer .best-content .twice-content .second-card {
+    float: right;
+    width: 65%;
+    height: 100%;
+    /* background-color: rgb(42, 99, 165); */
+}
+
+footer .best-content .twice-content .second-card h2 {
+    font-family: 'koulen';
+    color: #ABAAAB;
+    margin-bottom: 13px;
+}
+
+footer .best-content .twice-content .second-card .first-des p {
+    font-size: 20px;
+    font-family: 'Battambang';
+    color: #ABAAAB;
+    margin-bottom: 13px;
+}
+
+footer .best-content .twice-content .second-card .second-des p {
+    font-size: 20px;
+    font-family: 'Battambang';
+    color: #ABAAAB;
+}
+
+footer .best-content .twice-content .second-card .second-des .some-logo {
+    width: 40px;
+    display: flex;
+    cursor: pointer;
+}
+
+footer .best-content .twice-content .second-card .second-des .some-logo img {
+    width: 100%;
+    height: 100%;
+    margin-right: 25px;
+    margin-top: 10px;
+    
+}
+
+footer .best-content .right-content {
+    float: right;
+    width: 25%;
+    height: 100%;
+    /* background-color: #f9a62b; */
+}
+
+footer .best-content .right-content .one-content {
+    width: 100%;
+    height: 100%;
+    /* background-color: #4390f8; */
+    padding: 20px 0;
+}
+
+footer .best-content .right-content .one-content h2 {
+    font-family: 'koulen';
+    color: #ABAAAB;
+    margin-bottom: 13px;
+}
+
+footer .best-content .right-content .one-content .social {
+    color: #999;
+    margin-top: 25px;
+    font-size: 30px;
+    
+}
+
+footer .best-content .right-content .one-content .social i {
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+
+footer .best-content .right-content .one-content .social i:hover {
+    color: #fff;
+}
+
+footer .best-content .right-content .one-content .last-des {
+    color: #999;
+    margin-top: 25px;
+    font-family: 'Battambang';
+}
+
+footer .best-content .right-content .one-content .last-des .p1 {
+    color: #fff;
+    font-weight: 600;
+}
+
+footer .best-content .right-content .one-content .last-des .p2 {
+    font-family: sans-serif;
+    color: #ABAAAB;
+}
+
+
+/* ----------------- hover ------------------- */
+.content .content-new .right-content .content:nth-child(1):hover .linear,
+.content .content-new .right-content .content:nth-child(2):hover .linear,
+.content .content-new .left-content .content:nth-child(1):hover .linear,
+.content .content-new .left-content .content:nth-child(2):hover .linear {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 8%, rgba(0, 0, 0, 0.8) 60%, black 100%);
+    opacity: 5;
+}
+
+.content .content-new .right-content .content:nth-child(1):hover .hover-slide,
+.content .content-new .right-content .content:nth-child(1):hover .hover-slide p,
+.content .content-new .right-content .content:nth-child(2):hover .hover-slide,
+.content .content-new .right-content .content:nth-child(2):hover .hover-slide p,
+.content .content-new .left-content .content:nth-child(1):hover .hover-slide,
+.content .content-new .left-content .content:nth-child(1):hover .hover-slide p,
+.content .content-new .left-content .content:nth-child(2):hover .hover-slide,
+.content .content-new .left-content .content:nth-child(2):hover .hover-slide p {
+    display: block;
+    bottom: 100px;
+}
+
+.content .content-new .right-content .content:nth-child(2):hover .hover-slide h2,
+.content .content-new .right-content .content:nth-child(1):hover .hover-slide h2,
+.content .content-new .left-content .content:nth-child(1):hover .hover-slide h2,
+.content .content-new .left-content .content:nth-child(2):hover .hover-slide h2 {
+    color: #D90C16;
+}
+
+.content .content-new .right-content .content:nth-child(1):hover .time,
+.content .content-new .right-content .content:nth-child(2):hover .time,
+.content .content-new .left-content .content:nth-child(2):hover .time,
+.content .content-new .left-content .content:nth-child(1):hover .time {
+    background-color: black;
+}
+/* ------------------------------------------- */

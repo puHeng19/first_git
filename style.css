@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    background-color: red;
+    height: 60px;
+}
+
+.nav_bar {
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.main-content {
+    width: 70%;
+    height: 200px;
+    background-color: brown;
+    float: left;
+}
+
+.slide-bar {
+    float: right;
+    width: 30%;
+    height: 550px;
+    background-color: cornflowerblue;
+}
+
+.content {
+    width: 70%;
+    height: 500px;
+    /* background-color: blue; */
+}
+
+.content .content1,
+.content .content2,
+.content .content3 {
+    width: 33.33%;
+    height: 350px;
+    float: left;
+}
+
+.footer {
+    color: white;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    /* float: left; */
+}
+

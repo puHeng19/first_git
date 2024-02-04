@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="getName">Name : </label>
+        <input type="text" name="name" id="getName">
+        <br><br>
+        <label for="getNum">Number : </label>
+        <input type="number" name="num" id="getNum">
+        <input type="button" value="Submit" onclick="submitForm()">
+    </form>
+
+    <p id="outputName"></p>
+    <p id="outputNum"></p>
+</body>
+
+<script>
+    function submitForm() {
+        var name = document.getElementById('getName').value;
+        var num = document.getElementById('getNum').value;
+        var outputName = document.getElementById('outputName').innerHTML = "Name = " + name;
+        var outputNum = document.getElementById("outputNum").innerHTML = "Number = " + num;
+    }
+</script>
+</html>
